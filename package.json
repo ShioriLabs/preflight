@@ -6,7 +6,8 @@
   "scripts": {
     "test": "eslint src/**/*.ts --fix",
     "build": "tsc",
-    "dev": "ts-node --project tsconfig.json src/app.ts"
+    "dev": "ts-node --project tsconfig.json src/app.ts",
+    "start": "node dist/app.js"
   },
   "repository": {
     "type": "git",
