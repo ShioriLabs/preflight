@@ -8,7 +8,8 @@
     "build": "tsc",
     "dev": "ts-node --project tsconfig.json src/app.ts",
     "start": "node dist/app.js",
-    "watch": "NODE_ENV=development nodemon -e ts --watch ./src --exec \"npm run dev\""
+    "watch": "NODE_ENV=development nodemon -e ts --watch ./src --exec \"npm run dev\"",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,6 @@
     "url": "https://github.com/shiorilabs/preflight/issues"
   },
   "homepage": "https://github.com/shiorilabs/preflight#readme",
-  "dependencies": {},
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.13.0",
     "@typescript-eslint/parser": "^4.13.0",
@@ -30,7 +30,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "husky": "^4.3.8",
+    "husky": "^6.0.0",
     "lint-staged": "^10.5.3",
     "nodemon": "^2.0.7",
     "ts-node": "^8.10.2",
@@ -38,10 +38,5 @@
   },
   "lint-staged": {
     "*.(ts|tsx)": "eslint"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }
