@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shiorilabs/preflight.git"
+    "url": "git+https://github.com/ShioriLabs/preflight.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shiorilabs/preflight/issues"
+    "url": "https://github.com/ShioriLabs/preflight/issues"
   },
-  "homepage": "https://github.com/shiorilabs/preflight#readme",
+  "homepage": "https://github.com/ShioriLabs/preflight#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.13.0",
     "@typescript-eslint/parser": "^4.13.0",
